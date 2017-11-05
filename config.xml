@@ -6,7 +6,7 @@
         id        = "gesture.input"
         version   = "0.1">
 
-    <name>Text Entry</name>
+    <name>Gesture Input</name>
 
     <description>
         A sample application that gets gestures entered.
