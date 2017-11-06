@@ -10,6 +10,10 @@ $(document).on("pagecreate","#pageOne",function(){
 	$('#taptext').on("tap",function(){
     	$(this).css("color", "red");
  	});
+	
+	$("#pageOne").on("swipe",function(){
+		$.mobile.navigate("#pageTwo");
+	});
 
 	$('#swipetext').on("swipeleft",function(){
     	$(this).css('color', 'green');
